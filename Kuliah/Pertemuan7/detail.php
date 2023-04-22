@@ -12,6 +12,11 @@ $m = query("SELECT * FROM mahasiswa WHERE id = $id");
 <html lang="en">
 
 <head>
+  <style>
+    ul {
+      list-style: none;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +24,7 @@ $m = query("SELECT * FROM mahasiswa WHERE id = $id");
 </head>
 
 <body>
+
   <center>
     <h2>Detail Mahasiswa</h2>
     <ul>
